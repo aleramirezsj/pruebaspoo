@@ -8,6 +8,10 @@ public class Program
 		var alumnoMauri = new Alumno(1, "Mauri");
 		Console.WriteLine("El alumno iniciado es " + alumnoMauri.MostrarNombre());
 		Console.WriteLine("La información del alumno ingresado es= " + alumnoMauri.MostrarInformación());
+
+		var alumnoAle = new Alumno(2, "Alejandro");
+		Console.WriteLine("El alumno iniciado es " + alumnoAle.MostrarNombre());
+		Console.WriteLine("La información del alumno ingresado es= " + alumnoAle.MostrarInformación());
 	}
 }
 
